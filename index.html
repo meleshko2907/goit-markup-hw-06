@@ -107,14 +107,18 @@
                 class="modal-form-message"
                 name="user_message" 
                 id="user_message" 
-                rows="6">
+                rows="6"
+                placeholder="Введіть текст">
               </textarea>
             </div>
 
-            <div role="group">
+            <div class="modal-form-agreement" role="group">
               <input class="modal-form-checkbox" type="checkbox" id="user_agreement">
-              <label for="user_agreement">Погоджуюся з розсилкою та приймаю Умови договору <a href="">Умови договору</a></label>
-              <button type="submit">Відправити</button>
+              <label class="modal-form-agreement-disc" for="user_agreement">
+                Погоджуюся з розсилкою та приймаю 
+                <a class="modal-form-agreement-link" href="">Умови договору</a>
+              </label>
+              <button class="modal-form-btn" type="submit">Відправити</button>
             </div>
         
           </form>
