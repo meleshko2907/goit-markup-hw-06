@@ -304,17 +304,24 @@ header{
     border-radius: 4px;
     padding-left: 42px;
     padding-right: 42px;
+    outline: 1px solid transparent;
+    transition: outline var(--anim-speed), box-shadow;
 }
 .modal-form-field:focus{
-    outline: 1px solid var(--secondary-color);
+    outline-color: var(--secondary-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .modal-form-icon{
     position: absolute;
     top: 50%;
-    left: 12px;;
+    left: 12px;
     transform: translateY(-50%);
+    transition: fill var(--anim-speed);
+    
+}
+.modal-form-field:focus + .modal-form-icon{
+    fill: var(--secondary-color);
 }
 
  
