@@ -17,33 +17,39 @@
 </head>
 <body>
     <header class="line">
-        <div class="header-container container">
-            <a class="logo link header" href="./index.html" lang="en"> Web<span class="logo-part">Studio</span></a>
-            <nav class="nav-head">
-                <ul class="header-list list">
-                    <li class="nav-item header">
-                        <a href="./index.html" class="nav-link link">Студія</a>
+        <div class="header__container container">
+            <a class="logo header__logo link" href="./index.html" lang="en">
+                Web<span class="logo--black">Studio</span>
+            </a>
+            <nav class="nav">
+                <ul class="nav__list list">
+                    <li class="nav__item">
+                        <a href="./index.html" class="nav__link link">Студія</a>
                     </li>
-                    <li class="nav-item header">
-                        <a href="./portfolio.html" class="nav-link link current current-line">Портфоліо</a>
+                    <li class="nav__item">
+                        <a href="./portfolio.html" class="nav__link nav__link--current nav__link--current-line link">Портфоліо</a>
                     </li>
-                    <li class="nav-item header">
-                        <a href="./contacts.html" class="nav-link link">Контакти</a>
+                    <li class="nav__item">
+                        <a href="./contacts.html" class="nav__link link">Контакти</a>
                     </li>
                 </ul>
             </nav>
-            <ul class="contact-container list">
+            <ul class="header__group list">
                 <li>
-                    <a href="mailto:info@devstudio.com" class="header-contacts link header">
-                        <svg class="header-email" width="16" height="12">
+                    <a href="mailto:info@devstudio.com" class="header__contacts link ">
+                        <svg class="header__email" width="16" height="12">
                             <use href="./images/icons.svg#icon-envelope"></use>
-                        </svg>info@devstudio.com</a>
+                        </svg>
+                        info@devstudio.com
+                    </a>
                 </li>
                 <li>
-                    <a href="tel:+380961111111" class="header-contacts link header">
-                        <svg class="header-phone" width="10" height="16">
+                    <a href="tel:+380961111111" class="header__contacts link">
+                        <svg class="header__phone" width="10" height="16">
                             <use href="./images/icons.svg#icon-smartphone"></use>
-                        </svg>+38 096 111 11 11</a>
+                        </svg>
+                        +38 096 111 11 11
+                    </a>
                 </li>
             </ul>
         </div>
@@ -187,8 +193,8 @@
 <footer class="footer-box">
     <div class="container footer-sections">
         <div class="footer-contacts">
-            <a class="logo-footer link" href="./index.html" lang="en">
-                Web<span class="logo-footer-part">Studio</span>
+            <a class="logo footer__logo link" href="./index.html" lang="en">
+                Web<span class="logo--white">Studio</span>
             </a>
             <address class="location">
                 <p class="location-on-map link">м. Київ, пр-т Лесі Українки, 26</p>
