@@ -169,7 +169,7 @@ img{
     padding-bottom: 200px;
 }
 
-.hero-text{
+.hero__title{
     margin-right: 338px;
     margin-bottom: 30px;
     margin-left: 252px;
@@ -184,7 +184,7 @@ img{
     color: #FFFFFF;
 }  
 
-.hero-btn{
+.hero__btn{
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
@@ -206,14 +206,13 @@ img{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
-.hero-btn:active,
-.hero-btn:hover,
-.hero-btn:focus{
+.hero__btn:active,
+.hero__btn:hover,
+.hero__btn:focus{
     background: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
-
 
 
 /*-------modal-window------*/
@@ -243,7 +242,7 @@ img{
     transition: transform var(--anim-speed), opacity var(--anim-speed);
 }
 
-.modal-btn{
+.modal__btn{
     position: absolute;
     top: 14px;
     right: 14px;
@@ -261,8 +260,8 @@ img{
     transition: fill var(--anim-speed);
 }
 
-.modal-btn:hover,
-.modal-btn:focus{
+.modal__btn:hover,
+.modal__btn:focus{
    fill: var(--secondary-color);
 }
 
@@ -604,7 +603,7 @@ img{
 
 /*-------Clients---------*/
 
-.clients-title{
+.clients-area__title{
     margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
@@ -613,14 +612,14 @@ img{
     color: var(--brand-color);
 }
 
-.clients{
+.clients-area__list{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
 
-.clients-logo{
+.clients-area__logo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -632,7 +631,7 @@ img{
     
 }
 
-.clients-link{
+.clients-area__link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -645,15 +644,15 @@ img{
 }
 
 
-.clients-link:hover,
-.clients-link:focus{
+.clients-area__link:hover,
+.clients-area__link:focus{
     border: 1px solid #2196F3;
     border-radius: 4px;
     fill: var(--secondary-color);
 }
 
-.clients-link:focus .clients-logo,
-.clients-link:hover .clients-logo{
+.clients-area__link:focus .clients-area__logo,
+.clients-area__link:hover .clients-area__logo{
     fill: var(--secondary-color);
 }
 
@@ -678,7 +677,7 @@ img{
     margin-left: auto;
 }
 
-.footer-contacts{
+.footer__contacts{
     justify-content: flex-start;
     align-items: center;
     margin-right: 70px;
@@ -689,11 +688,11 @@ img{
     color: #ffffff;
 }
 
-.location{
+.address{
     margin-top: 20px;
 }
 
-.location-on-map{
+.address__location{
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -702,7 +701,7 @@ img{
     margin-bottom: 9px;
 }
 
-.contact-tel{
+.address__tel{
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -711,15 +710,16 @@ img{
 }
 
 
-.contact-email{
+.address__email{
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 9px;
 }
 
-.mail-link{
+.address__mail-wrepper{
     margin-bottom: 9px;
 }
 
@@ -740,7 +740,7 @@ img{
     margin-bottom: 20px;
 }
 
-.footer-socials__contacts {
+.footer-socials__contact {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -748,14 +748,14 @@ img{
     margin-top: 20px;
 }
 
-.footer--social-link{
+.fotter-socials--social-link{
     display: flex;
     background: rgba(255, 255, 255, 0.1);
     color: #ffffff;
 }
 
-.footer--social-link:hover,
-.footer--social-link:focus{
+.fotter-socials--social-link:hover,
+.fotter-socials--social-link:focus{
     background-color: var(--secondary-color);
     
 }
